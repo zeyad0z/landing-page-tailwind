@@ -1,0 +1,8 @@
+@import "tailwindcss";
+:root{
+    --my-text-size:100px
+}
+
+@theme {
+    --text-tiny: 50px; 
+  }

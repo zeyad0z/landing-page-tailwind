@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body class="light-background dark-background">
+    <!-- screen one -->
+    <main>
+      <!-- Nav bar -->
+      <nav class="py-4 font-semibold">
+        <div
+          class="container mx-auto flex justify-between items-center flex-col lg:flex-row gap-[2rem]"
+        >
+          <div class="flex-1 mx-5">
+            <button
+              id="dm"
+              class="btn bg-black text-white w-fit p-2 dark:bg-white dark:text-black"
+            >
+              Dark Mode
+            </button>
+          </div>
+          <div
+            class="flex gap-[2rem] justify-center flex-1 flex-col lg:flex-row dark:text-white"
+          >
+            <span class="">Product</span>
+            <span class="">Features</span>
+            <span class="">Marketplace</span>
+            <span class="">Company</span>
+          </div>
+          <div
+            id="login"
+            class="flex justify-end items-center flex-1 hover:animate-bounce hover:cursor-pointer mx-auto md:mx-5"
+          >
+            <a class="dark:text-white" href="./src/form.html">
+              Log in
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <header
+        class="flex flex-col items-center justify-center h-screen gap-[1rem]"
+      >
+        <div class="border rounded-[2rem] border-gray-800 dark:border-gray-200">
+          <p class="px-2 py-1 paratext">
+            Announcing our next round of funding.
+            <span
+              class="text-violet-500 font-semibold hover:text-violet-950 dark:hover:text-violet-300"
+              >Read more <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </p>
+        </div>
+        <div>
+          <h1 class="h1 my-3 w-2/3">Data to enrich your online business</h1>
+        </div>
+        <div>
+          <p class="paratext w-2/3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+            optio soluta, ipsa nam iusto recusandae quaerat laboriosam enim
+            accusamus voluptas!
+          </p>
+        </div>
+        <div class="flex gap-2 mt-5">
+          <button class="btn">Get Started</button>
+          <button
+            class="p-2.5 rounded-2xl font-semibold hover:cursor-pointer bg-transparent text-black dark:text-white"
+          >
+            Learn More <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </header>
+    </main>
+
+    <!-- screen two -->
+    <main>
+      <!-- header  -->
+      <div>
+        <h3 class="h3 my-5 w-2/3">Simple no-tricks pricing</h3>
+        <p class="paratext w-2/3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+          perferendis odio enim aspernatur impedit reprehenderit laudantium ut
+          optio dignissimos perspiciatis quis iste. Id, saepe sint?
+        </p>
+      </div>
+
+      <!-- card  -->
+      <div
+        id="card"
+        class="mt-15 mx-auto w-[90vw] borderstyle flex flex-col lg:flex-row p-2"
+      >
+        <div class="ps-10 lg:w-3/5 w-full">
+          <h3
+            class="text-2xl font-bold text-gray-800 w-2/3 my-10 dark:text-white"
+          >
+            Lifetime membership
+          </h3>
+          <p class="text-gray-500 dark:text-white">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sit
+            ullam assumenda sapiente cumque amet officia maiores molestiae
+            perferendis necessitatibus?
+          </p>
+          <div class="container flex my-10 items-center justify-center gap-2">
+            <p class="text-violet-500 font-bold">What's included</p>
+            <hr
+              class="me-2 ms-1 w-11/14 broder-0 border-gray-800 bg-gray-800 dark:border-white"
+            />
+          </div>
+          <div class="flex justify-between flex-wrap">
+            <div class="text-gray-500 w-1/2 dark:text-white">
+              <i class="fa-solid fa-check text-violet-500 pe-5"></i>Private
+              forum access
+            </div>
+            <div class="text-gray-500 w-1/2 dark:text-white">
+              <i class="fa-solid fa-check text-violet-500 pe-5"></i>Member
+              resources
+            </div>
+            <div class="text-gray-500 w-1/2 my-10 dark:text-white">
+              <i class="fa-solid fa-check text-violet-500 pe-2"></i>Entry to
+              annual conference
+            </div>
+            <div class="text-gray-500 w-1/2 my-10 dark:text-white">
+              <i class="fa-solid fa-check text-violet-500 pe-5"></i>Official
+              member t-shirt
+            </div>
+          </div>
+        </div>
+
+        <div class="borderstyle bg-violet-300 p-5 text-center w-full lg:w-2/5">
+          <p class="text-gray-600 m-10">Pay once, own it forever</p>
+          <div class="m-10">
+            <span class="text-5xl font-bold text-gray-800">$349</span
+            ><sub class="text-gray-600 text-[12pt]">USD</sub>
+          </div>
+          <div class="m-10">
+            <button class="btn w-full">Get Access</button>
+          </div>
+          <p class="text-gray-500 m-10">
+            Invoices and receipts available for easy company reimbursement
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- screen three -->
+    <main>
+      <!-- header  -->
+      <div class="mt-5">
+        <p class="text-violet-500 text-center">Deploy faster</p>
+        <h1 class="h3 my-5 w-2/3">Everything you need to deploy your app</h1>
+        <p class="paratext w-2/3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque velit
+          perspiciatis assumenda illo eos praesentium, ipsa distinctio corporis
+          asperiores, aut ad alias, nihil soluta. Repellat maiores quaerat
+          laboriosam error, amet iure ipsam ullam maxime similique voluptatum.
+        </p>
+      </div>
+
+      <!-- cards  -->
+      <div class="my-20 flex items-center flex-wrap mx-5 lg:mx-50">
+        <div class="w-full lg:w-1/2 flex p-10">
+          <i class="iconstyle fa-solid fa-cloud-arrow-up"></i>
+          <div class="">
+            <p class="font-bold text-gray-600 mb-2 dark:text-white">
+              Push to deploy
+            </p>
+            <p class="text-gray-500 dark:text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              iste repudiandae quam tenetur iure? Vero esse ab temporibus
+              dolores blanditiis.
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 flex p-10">
+          <i class="iconstyle fa fa-lock"></i>
+          <div>
+            <p class="font-bold text-gray-600 mb-2 dark:text-white">
+              SSL certificates
+            </p>
+            <p class="text-gray-500 dark:text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              iste repudiandae quam tenetur iure? Vero esse ab temporibus
+              dolores blanditiis.
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 flex p-10">
+          <i class="iconstyle fa fa-refresh aria-hidden=true"></i>
+          <div>
+            <p class="font-bold text-gray-600 mb-2 dark:text-white">
+              Simple queues
+            </p>
+            <p class="text-gray-500 dark:text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              iste repudiandae quam tenetur iure? Vero esse ab temporibus
+              dolores blanditiis.
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 flex p-10">
+          <i class="iconstyle fa-solid fa-fingerprint"></i>
+          <div>
+            <p class="font-bold text-gray-600 mb-2 dark:text-white">
+              Advanced security
+            </p>
+            <p class="text-gray-500 dark:text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              iste repudiandae quam tenetur iure? Vero esse ab temporibus
+              dolores blanditiis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- screen four  -->
+    <main
+      class="h-[40rem] flex flex-col justify-center bg-[url(https://cdn.prod.website-files.com/5f4a004f01308268d80d6e85/5f751e5a1f627cb12ea8b9c0_social-distance-conference-room-scaled.jpeg)] bg-cover bg-center bg-blend-overlay bg-violet-950 text-white"
+    >
+      <div class="mx-10 lg:w-1/2">
+        <p class="text-6xl font-bold my-5">Work with us</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+          consequatur hic vel, ea fugit mollitia quae explicabo ab sequi, veniam
+          facilis ipsam debitis odio libero.
+        </p>
+      </div>
+      <div
+        class="flex justify-between lg:w-1/2 mx-10 mt-10 flex-col lg:flex-row"
+      >
+        <p class="text-xl m-2">
+          Open roles <i class="fa-solid fa-arrow-right"></i>
+        </p>
+        <p class="text-xl m-2">
+          Internship program <i class="fa-solid fa-arrow-right"></i>
+        </p>
+        <p class="text-xl m-2">
+          Our values <i class="fa-solid fa-arrow-right"></i>
+        </p>
+        <p class="text-xl m-2">
+          Meet our leadership <i class="fa-solid fa-arrow-right"></i>
+        </p>
+      </div>
+      <div class="flex justify-between w-3/4 mt-30 mx-10">
+        <div>
+          <p class="text-xl font-bold">12</p>
+          <p>Offices worldwide</p>
+        </div>
+        <div>
+          <p class="text-xl font-bold">300+</p>
+          <p>Full-time colleagues</p>
+        </div>
+        <div>
+          <p class="text-xl font-bold">40</p>
+          <p>Hours per week</p>
+        </div>
+        <div>
+          <p class="text-xl font-bold">Unlimited</p>
+          <p>Paid time off</p>
+        </div>
+      </div>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
+</html>

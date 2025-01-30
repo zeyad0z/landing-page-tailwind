@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.btn {
+  @apply p-2.5 rounded-2xl font-semibold hover:cursor-pointer bg-violet-500 text-black dark:bg-violet-500 dark:text-white;
+}
+.h1 {
+  @apply text-6xl font-bold  text-center mx-auto;
+}
+.h3 {
+  @apply text-4xl font-bold text-gray-800 text-center mx-auto dark:text-white;
+}
+.paratext {
+  @apply mx-auto text-center text-gray-500 dark:text-white;
+}
+.iconstyle {
+  @apply bg-violet-500 text-white p-2 rounded-xl mx-3 h-8 w-15 text-center;
+}
+.borderstyle {
+  @apply border-1 border-gray-800 rounded-2xl dark:border-white;
+}
+.light-background {
+  @apply bg-linear-to-r from-pink-300 via-purple-300 to-white;
+}
+.dark-background {
+  @apply dark:bg-linear-to-r dark:from-pink-950 dark:via-purple-950 dark:to-black dark:text-white;
+}
