@@ -12,7 +12,7 @@
   @apply text-4xl font-bold text-gray-800 text-center mx-auto dark:text-white;
 }
 .paratext {
-  @apply mx-auto text-center text-gray-500 dark:text-white;
+  @apply mx-auto text-center text-gray-600 dark:text-white;
 }
 .iconstyle {
   @apply bg-violet-500 text-white p-2 rounded-xl mx-3 h-8 w-15 text-center;
