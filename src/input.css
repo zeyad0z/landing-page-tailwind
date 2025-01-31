@@ -3,7 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 .btn {
-  @apply p-2.5 rounded-2xl font-semibold hover:cursor-pointer bg-violet-500 text-black dark:bg-violet-500 dark:text-white;
+  @apply p-2.5 rounded-2xl font-semibold hover:cursor-pointer hover:bg-violet-400 bg-violet-500 text-black dark:bg-violet-500 dark:text-white;
 }
 .h1 {
   @apply text-6xl font-bold  text-center mx-auto;
